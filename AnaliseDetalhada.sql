@@ -43,38 +43,31 @@ SELECT
   *,
 -- Taxa de Recuperção por Valor:
   ROUND(
-    base.ValorTotalRec / NULLIF(base.ValorFraudado, 0)
-    * 100.0, 4) AS TaxaValorRec,
+    base.ValorTotalRec / NULLIF(base.ValorFraudado, 0), 4) AS TaxaValorRec,
 
 -- Taxa de Não Recuperação por Valor:
   ROUND(
-    ValorTotalNaoRec / NULLIF(ValorFraudado, 0)
-    * 100.0,4) AS TaxaValorNaoRec,
+    ValorTotalNaoRec / NULLIF(ValorFraudado, 0),4) AS TaxaValorNaoRec,
   
 -- Taxa Recuperação Integral Parcialmente):
   ROUND(
-    (base.QtdRecIntegralmente) / NULLIF(base.QtdFraudes, 0)
-    * 100.0, 4) AS TaxaQtdRecIntegral,
+    (base.QtdRecIntegralmente) / NULLIF(base.QtdFraudes, 0), 4) AS TaxaQtdRecIntegral,
 
 -- Taxa Recuperação Integral Parcialmente:
   ROUND(
-    (base.QtdRecParcialmente) / NULLIF(base.QtdFraudes, 0) 
-    * 100.0, 4) AS TaxaQtdRecParcial,
+    (base.QtdRecParcialmente) / NULLIF(base.QtdFraudes, 0), 4) AS TaxaQtdRecParcial,
 
 -- Participação do Bloqueio Cautelar:
   ROUND(
-    base.ValorBloqDevolvido / NULLIF(base.ValorFraudado, 0)
-    * 100.0, 4) AS ParticipacaoBloqCautelar,
+    base.ValorBloqDevolvido / NULLIF(base.ValorFraudado, 0), 4) AS ParticipacaoBloqCautelar,
 
 -- Taxa dos Bloqueios Devolvidos:
   ROUND(
-    (base.ValorBloqDevolvido) / NULLIF(base.ValorTotalBloq, 0)
-    * 100.0,4) AS TaxaValorBloqDevolvido,
+    (base.ValorBloqDevolvido) / NULLIF(base.ValorTotalBloq, 0), 4) AS TaxaValorBloqDevolvido,
 
 -- Taxa dos Bloqueios Liberado:
   ROUND(
-    (base.ValorBloqLiberado) /NULLIF(base.ValorTotalBloq, 0)
-    * 100.0,4) AS TaxaValorBloqLiberado
+    (base.ValorBloqLiberado) /NULLIF(base.ValorTotalBloq, 0),4) AS TaxaValorBloqLiberado
 
 FROM 
   base
