@@ -8,31 +8,31 @@ SELECT
   QuantidadedevolvidaintegralmentepormeiodoMED AS QtdRecIntegralmente,
   QuantidadedevolvidaparcialmentepormeiodoMED AS QtdRecParcialmente,
  
-  ValorPixcontestadosaceitos AS ValorFraudado,
+  ValorPixcontestadosaceitos / 100 AS ValorFraudado,
 
-  ValorPixdevolvidosintegralmente AS ValorRecIntegralmente,
-  ValorPixdevolvidosparcialmente AS ValorRecParcialmente,
+  ValorPixdevolvidosintegralmente / 100 AS ValorRecIntegralmente,
+  ValorPixdevolvidosparcialmente / 100 AS ValorRecParcialmente,
   
-  ValorPixnaodevolvidossaldoinsuficiente AS ValorNaoRecSaldoInsuf,
-  Valornaodevolvidoscontaencerrada AS ValorNaoRecContaEncer,
-  ValorPixnaodevolvidosmotivosdiversos AS ValorNaoRecMotivosDiv,
+  ValorPixnaodevolvidossaldoinsuficiente / 100 AS ValorNaoRecSaldoInsuf,
+  Valornaodevolvidoscontaencerrada / 100 AS ValorNaoRecContaEncer,
+  ValorPixnaodevolvidosmotivosdiversos / 100 AS ValorNaoRecMotivosDiv,
  
-  ValorPixbloqueadoscautelarmenteedevolvidos AS ValorBloqDevolvido,
-  ValorPixbloqueadoscautelarmenteeliberados AS ValorBloqLiberado,
+  ValorPixbloqueadoscautelarmenteedevolvidos / 100 AS ValorBloqDevolvido,
+  ValorPixbloqueadoscautelarmenteeliberados / 100 AS ValorBloqLiberado,
 
 -- Valor Total Recuperado:
   (ValorPixdevolvidosintegralmente +
-  ValorPixdevolvidosparcialmente)  AS ValorTotalRec,
+  ValorPixdevolvidosparcialmente) / 100 AS ValorTotalRec,
 
 -- Valor Total Não Recuperado: 
     (Valornaodevolvidoscontaencerrada +
     ValorPixnaodevolvidosmotivosdiversos +
     ValorPixnaodevolvidossaldoinsuficiente +
     ValorPixresidualnaodevolvido
-    ) AS ValorTotalNaoRec,
+    ) / 100 AS ValorTotalNaoRec,
 
 -- Valor Total Bloqueado:
-  (ValorPixbloqueadoscautelarmenteeliberados + ValorPixbloqueadoscautelarmenteedevolvidos) AS ValorTotalBloq
+  (ValorPixbloqueadoscautelarmenteeliberados + ValorPixbloqueadoscautelarmenteedevolvidos) / 100 AS ValorTotalBloq
 
 FROM 
   `clear-aurora-469314-a0.EstatisticasDoPix.fraude-pix`
