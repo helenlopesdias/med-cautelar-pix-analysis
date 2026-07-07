@@ -1,6 +1,6 @@
-# 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
+# Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto tem como objetivo analisar a efetividade do **MED (Mecanismo Especial de Devolução)** e do **Bloqueio Cautelar**, mecanismos criados pelo Banco Central do Brasil para auxiliar na recuperação de valores transferidos via Pix em casos de fraude.
 
@@ -14,7 +14,7 @@ A análise foi desenvolvida utilizando dados públicos disponibilizados pelo Ban
 
 ---
 
-## 🎯 Objetivos da Análise
+## Objetivos da Análise
 
 * Avaliar a eficiência do MED na recuperação de valores contestados.
 * Avaliar a efetividade do bloqueio cautelar.
