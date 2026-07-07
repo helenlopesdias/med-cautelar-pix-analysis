@@ -34,8 +34,6 @@ Foram utilizadas duas bases públicas:
 Contém informações sobre:
 * Contestações aceitas
 * Valores fraudados
-* Valores recuperados integralmente
-* Valores recuperados parcialmente
 * Valores não recuperados
 * Bloqueios cautelares
 * Motivos de não devolução
@@ -72,19 +70,17 @@ Contém informações sobre:
 * Valor Total Contestado
 * Valor Total Recuperado
 * Taxa de Recuperação por Valor
-* Quantidade de Recuperações Integrais
-* Quantidade de Recuperações Parciais
 * Principais Causas de Não Recuperação
 
 ### Bloqueio Cautelar
 * Valor Total Bloqueado
 * Valor Bloqueado e Recuperado
+* Valor Bloqueado e Liberado
+* Quantidade de Bloqueios Cautelares
 * Taxa de Conversão do Bloqueio em Recuperação
 
 ### Ecossistema Pix
 * Valor Total Transacionado
-* Quantidade de Transações
-* Índice de Fraudes por Milhão de Transações
 
 ---
 
@@ -104,15 +100,10 @@ A principal causa da não recuperação dos recursos foi a falta de saldo nas co
 | Motivo             | Participação |
 | ------------------ | -----------: |
 | Saldo insuficiente |        86,2% |
-| Conta encerrada    |        10,1% |
-| Outros motivos     |         3,7% |
+| Outros motivos     |        10,1% |
+| Conta encerrada    |         3,7% |
 
 Isso sugere que o principal desafio não está necessariamente na identificação da fraude pelas instituições, mas na rapidez do processo para indisponibilizar os recursos antes que os valores sejam pulverizados.
-
----
-
-### Evolução das Fraudes
-Apesar do crescimento contínuo do volume transacionado via Pix, o índice de fraudes por milhão de transações apresentou tendência de queda ao longo do período analisado, indicando maturidade e eficiência das barreiras de segurança do ecossistema.
 
 ---
 
@@ -121,7 +112,7 @@ Apesar do crescimento contínuo do volume transacionado via Pix, o índice de fr
 * Cerca de **R$ 3,06 bilhões** foram efetivamente recuperados.
 * A taxa média de conversão do bloqueio em recuperação foi de aproximadamente **2,8%**.
 
-Os resultados indicam que, embora o bloqueio cautelar movimente volumes expressivos de recursos por segurança algorítmica, a maior parte desse montante acaba sendo liberada após a validação da legitimidade da transação.
+Os resultados indicam que, o a quantidade de bloqueios liberados vem dimunuindo enquanto a quantidade de valor bloqueado devolvido ao remetente vem aumentando, isso indica que o bloqueio cautelar se mostra eficiente na prevenção de fraudes.
 
 ---
 
@@ -130,13 +121,13 @@ Os resultados indicam que, embora o bloqueio cautelar movimente volumes expressi
 * Os dados são agregados mensalmente e não permitem análises em nível individual de transação.
 * Não é possível medir o tempo exato decorrido entre a fraude, a contestação e a recuperação.
 * Não é possível concluir se o MED reduz a ocorrência de novas fraudes, pois o mecanismo atua de forma reativa, após a fraude ter ocorrido.
-* Os dados de transações Pix não incluem operações realizadas entre contas da mesma instituição financeira.
+* Os dados de transações Pix NÃO incluem operações realizadas entre contas da mesma instituição financeira.
 
 ---
 
 ## 📊 Dashboard
 
-![Visualização do Dashboard](caminho_da_sua_imagem.png=)
+![Visualização do Dashboard](C:\Helen Profissional\Portifolio\Projeto Transacoes Pix\med-cautelar-pix-analysis-dashboard.png)
 [
 O dashboard apresenta:
 * Evolução do volume transacionado e dos valores recuperados
