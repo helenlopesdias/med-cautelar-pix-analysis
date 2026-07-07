@@ -1,11 +1,10 @@
-# Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
+# 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
 
-## Sobre o Projeto
+## 📌 Sobre o Projeto
 
 Este projeto tem como objetivo analisar a efetividade do **MED (Mecanismo Especial de Devolução)** e do **Bloqueio Cautelar**, mecanismos criados pelo Banco Central do Brasil para auxiliar na recuperação de valores transferidos via Pix em casos de fraude.
 
 A análise foi desenvolvida utilizando dados públicos disponibilizados pelo Banco Central e tem foco em responder perguntas como:
-
 * Quanto do valor fraudado é efetivamente recuperado?
 * Quais são as principais causas da não recuperação dos recursos?
 * O crescimento das fraudes acompanha o crescimento do Pix?
@@ -14,7 +13,7 @@ A análise foi desenvolvida utilizando dados públicos disponibilizados pelo Ban
 
 ---
 
-## Objetivos da Análise
+## 🎯 Objetivos da Análise
 
 * Avaliar a eficiência do MED na recuperação de valores contestados.
 * Avaliar a efetividade do bloqueio cautelar.
@@ -100,8 +99,8 @@ A principal causa da não recuperação dos recursos foi a falta de saldo nas co
 | Motivo             | Participação |
 | ------------------ | -----------: |
 | Saldo insuficiente |        86,2% |
-| Outros motivos     |        10,1% |
-| Conta encerrada    |         3,7% |
+| Conta encerrada    |        10,1% |
+| Outros motivos     |         3,7% |
 
 Isso sugere que o principal desafio não está necessariamente na identificação da fraude pelas instituições, mas na rapidez do processo para indisponibilizar os recursos antes que os valores sejam pulverizados.
 
@@ -112,7 +111,7 @@ Isso sugere que o principal desafio não está necessariamente na identificaçã
 * Cerca de **R$ 3,06 bilhões** foram efetivamente recuperados.
 * A taxa média de conversão do bloqueio em recuperação foi de aproximadamente **2,8%**.
 
-Os resultados indicam que, o a quantidade de bloqueios liberados vem dimunuindo enquanto a quantidade de valor bloqueado devolvido ao remetente vem aumentando, isso indica que o bloqueio cautelar se mostra eficiente na prevenção de fraudes.
+Os resultados indicam que a quantidade de bloqueios liberados vem diminuindo enquanto a quantidade de valor bloqueado devolvido ao remetente vem aumentando. Isso indica que o bloqueio cautelar se mostra eficiente na prevenção de fraudes.
 
 ---
 
@@ -127,13 +126,13 @@ Os resultados indicam que, o a quantidade de bloqueios liberados vem dimunuindo 
 
 ## 📊 Dashboard
 
-![Visualização do Dashboard](C:\Helen Profissional\Portifolio\Projeto Transacoes Pix\med-cautelar-pix-analysis-dashboard.png)
-[
+![Visualização do Dashboard](med-cautelar-pix-analysis-dashboard.png)
+
 O dashboard apresenta:
 * Evolução do volume transacionado e dos valores recuperados
 * Taxa de recuperação ao longo do tempo
 * Principais causas de perda
-* Evolução do índice de fraudes por milhão de transações
+* Evolução da quantidade de bloqueios cautelares (liberados vs. recuperados)
 * Indicadores de bloqueio cautelar
 * Comparação entre volume de fraudes e sucesso de recuperação
 
@@ -144,10 +143,3 @@ O dashboard apresenta:
 * Análise sazonal de fraudes focada em períodos específicos (feriados nacionais, datas comerciais e final de ano).
 * Construção de modelos de previsão utilizando séries temporais para projeção de tentativas de fraudes.
 * Aplicação de modelos estatísticos para identificação profunda de tendências de comportamento de contas laranjas.
-
----
-
-### Autora
-
-**Helen Lopes Dias**  
-Estudante de Gestão da Tecnologia da Informação com foco em Análise de Dados, SQL, Power BI e Business Intelligence.
