@@ -1,3 +1,5 @@
+<img width="1061" height="595" alt="med-cautelar-pix-analysis-dashboard" src="https://github.com/user-attachments/assets/1bc2aaf7-069c-4614-83e7-e9ad20978053" />
+
 # 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
 
 ## 📌 Sobre o Projeto
