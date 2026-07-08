@@ -6,8 +6,6 @@
 
 ### 📥 Clique na imagem acima ou no link abaixo para baixar o projeto
 
-[Baixar arquivo .pbix](https://github.com/helenlopesdias/med-cautelar-pix-analysis/raw/refs/heads/main/med-cautelar-pix-analysis.pbix)
-
 *Para visualizar e interagir com o dashboard, faça o download do arquivo e abra-o no Power BI Desktop.*
 
 ---
