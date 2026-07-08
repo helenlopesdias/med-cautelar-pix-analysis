@@ -1,11 +1,13 @@
+# 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
+
 <a href="https://github.com/helenlopesdias/med-cautelar-pix-analysis/raw/refs/heads/main/med-cautelar-pix-analysis.pbix" target="_blank">
   <img width="1061" height="595" alt="Dashboard Análise MED e Bloqueio Cautelar Pix" src="https://github.com/user-attachments/assets/1bc2aaf7-069c-4614-83e7-e9ad20978053">
 </a>
 
 ### [📥 Clique aqui para baixar o arquivo do projeto (.pbix)](https://github.com/helenlopesdias/med-cautelar-pix-analysis/raw/refs/heads/main/med-cautelar-pix-analysis.pbix)
-*(Para visualizar e interagir com o dashboard localmente, faça o download do arquivo acima e abra-o utilizando o Power BI Desktop gratuito)*
+*(Para visualizar e interagir com o dashboard de forma interativa, faça o download do arquivo acima e abra-o utilizando o Power BI Desktop gratuito)*
 
-# 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
+---
 
 ## 📌 Sobre o Projeto
 
@@ -103,11 +105,11 @@ Entre janeiro de 2022 e abril de 2026:
 ### Principal Gargalo do MED
 A principal causa da não recuperação dos recursos foi a falta de saldo nas contas de destino no momento da denúncia:
 
-| Motivo             | Participação |
-| ------------------ | -----------: |
-| Saldo insuficiente |        86,2% |
-| Conta encerrada    |        10,1% |
-| Outros motivos     |         3,7% |
+| Motivo | Participação |
+| :--- | ---: |
+| Saldo insuficiente | 86,2% |
+| Conta encerrada | 10,1% |
+| Outros motivos | 3,7% |
 
 Isso sugere que o principal desafio não está necessariamente na identificação da fraude pelas instituições, mas na rapidez do processo para indisponibilizar os recursos antes que os valores sejam pulverizados.
 
@@ -133,20 +135,10 @@ Os resultados indicam que a quantidade de bloqueios liberados vem diminuindo enq
 
 ## 📊 Dashboard
 
-![Visualização do Dashboard](med-cautelar-pix-analysis-dashboard.png)
-
-O dashboard apresenta:
+O painel visual exibido no topo da página apresenta de forma consolidada:
 * Evolução do volume transacionado e dos valores recuperados
 * Taxa de recuperação ao longo do tempo
-* Principais causas de perda
+* Principais causas de perda do MED
 * Evolução da quantidade de bloqueios cautelares (liberados vs. recuperados)
-* Indicadores de bloqueio cautelar
-* Comparação entre volume de fraudes e sucesso de recuperação
-
----
-
-## 🚀 Possíveis Evoluções
-
-* Análise sazonal de fraudes focada em períodos específicos (feriados nacionais, datas comerciais e final de ano).
-* Construção de modelos de previsão utilizando séries temporais para projeção de tentativas de fraudes.
-* Aplicação de modelos estatísticos para identificação profunda de tendências de comportamento de contas laranjas.
+* Indicadores gerais de bloqueio cautelar
+* Comparação entre o volume de fraudes e o sucesso de recuperação de ativos
