@@ -5,6 +5,8 @@ SELECT
   Qtdecontestacoesaceitas AS QtdFraudes,
   QuantidadedevolvidaintegralmentepormeiodoMED AS QtdRecIntegralmente,
   QuantidadedevolvidaparcialmentepormeiodoMED AS QtdRecParcialmente,
+  QtdePixbloqueadoscautelarmenteeliberados AS QtdBloqLiberado,
+  QtdePixbloqueadoscautelarmenteedevolvidos AS QtdBloqRec,
 
   ValorPixcontestadosaceitos / 100 AS ValorFraudado,
   
