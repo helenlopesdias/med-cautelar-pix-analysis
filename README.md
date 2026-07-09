@@ -1,13 +1,12 @@
 # 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
-
-<a href="https://github.com/helenlopesdias/med-cautelar-pix-analysis/raw/refs/heads/main/med-cautelar-pix-analysis.pbix">
-  <img width="1061" alt="Dashboard Análise MED e Bloqueio Cautelar Pix" src="https://github.com/user-attachments/assets/1bc2aaf7-069c-4614-83e7-e9ad20978053">
-</a>
-
-### 📥 Clique na imagem acima ou no link abaixo para baixar o projeto
-
-*Para visualizar e interagir com o dashboard, faça o download do arquivo e abra-o no Power BI Desktop.*
-
+---
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+</p>
 ---
 
 ## 📌 Sobre o Projeto
@@ -143,3 +142,13 @@ O painel visual exibido no topo da página apresenta de forma consolidada:
 * Evolução da quantidade de bloqueios cautelares (liberados vs. recuperados)
 * Indicadores gerais de bloqueio cautelar
 * Comparação entre o volume de fraudes e o sucesso de recuperação de ativos
+
+---
+
+<a href="https://github.com/helenlopesdias/med-cautelar-pix-analysis/raw/refs/heads/main/med-cautelar-pix-analysis.pbix">
+  <img width="1061" alt="Dashboard Análise MED e Bloqueio Cautelar Pix" src="https://github.com/user-attachments/assets/1bc2aaf7-069c-4614-83e7-e9ad20978053">
+</a>
+
+### 📥 Clique na imagem acima ou no link abaixo para baixar o projeto
+
+*Para visualizar e interagir com o dashboard, faça o download do arquivo e abra-o no Power BI Desktop.*
