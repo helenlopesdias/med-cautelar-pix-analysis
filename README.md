@@ -76,26 +76,6 @@ Contém informações sobre:
 
 ---
 
-## 📈 Principais Indicadores (KPIs)
-
-### MED
-* Valor Total Contestado
-* Valor Total Recuperado
-* Taxa de Recuperação por Valor
-* Principais Causas de Não Recuperação
-
-### Bloqueio Cautelar
-* Valor Total Bloqueado
-* Valor Bloqueado e Recuperado
-* Valor Bloqueado e Liberado
-* Quantidade de Bloqueios Cautelares
-* Taxa de Conversão do Bloqueio em Recuperação
-
-### Ecossistema Pix
-* Valor Total Transacionado
-
----
-
 ## 🔍 Principais Insights
 
 ### Recuperação de Valores
