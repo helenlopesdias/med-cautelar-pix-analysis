@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/346910be-e530-4e22-999e-418b14dfd8d3
 
-# 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
+# Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
 ---
 <p align="center">
   <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/346910be-e530-4e22-999e-418b14dfd8d3
 ---
 
 
-## 📌 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto tem como objetivo analisar a efetividade do **MED (Mecanismo Especial de Devolução)** e do **Bloqueio Cautelar**, mecanismos criados pelo Banco Central do Brasil para auxiliar na recuperação de valores transferidos via Pix em casos de fraude.
 
@@ -26,7 +26,7 @@ A análise foi desenvolvida utilizando dados públicos disponibilizados pelo Ban
 
 ---
 
-## 🎯 Objetivos da Análise
+## Objetivos da Análise
 
 * Avaliar a eficiência do MED na recuperação de valores contestados.
 * Avaliar a efetividade do bloqueio cautelar.
@@ -36,7 +36,7 @@ A análise foi desenvolvida utilizando dados públicos disponibilizados pelo Ban
 
 ---
 
-## 📚 Fontes de Dados
+## Fontes de Dados
 
 ### Banco Central do Brasil – Dados Abertos
 
@@ -68,7 +68,7 @@ Contém informações sobre:
 
 ---
 
-## 🧠 Desafios Técnicos Solucionados
+## Desafios Técnicos Solucionados
 
 * **Modelagem de Dados e Engenharia de Atributos:** Tratamento, limpeza e unificação de bases de dados distintas do Banco Central utilizando SQL no BigQuery.
 * **Inteligência de Tempo com DAX:** Criação de medidas robustas e normalizadas, como o cálculo dinâmico da *Quantidade de Fraudes por Milhão de Transações*, isolando distorções de escala temporal.
@@ -76,7 +76,7 @@ Contém informações sobre:
 
 ---
 
-## 🔍 Principais Insights
+## Principais Insights
 
 ### Recuperação de Valores
 Entre janeiro de 2022 e abril de 2026:
@@ -117,7 +117,7 @@ Os resultados indicam que a quantidade de bloqueios liberados vem diminuindo enq
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 
 O painel visual exibido no topo da página apresenta de forma consolidada:
 * Evolução do volume transacionado e dos valores recuperados
@@ -133,9 +133,8 @@ O painel visual exibido no topo da página apresenta de forma consolidada:
   <img width="1061" alt="Dashboard Análise MED e Bloqueio Cautelar Pix" src="https://github.com/user-attachments/assets/1bc2aaf7-069c-4614-83e7-e9ad20978053">
 </a>
 
-
-
-
-### 📥 Clique na imagem acima ou no link abaixo para baixar o projeto
+<p align="center">
+  <strong>Clique na imagem para acessar a versão interativa do projeto.</strong>
+</p>
 
 *Para visualizar e interagir com o dashboard, faça o download do arquivo e abra-o no Power BI Desktop.*
