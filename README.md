@@ -1,3 +1,19 @@
+
+
+https://github.com/user-attachments/assets/346910be-e530-4e22-999e-418b14dfd8d3
+
+
+
+https://github.com/user-attachments/assets/a5727f9c-4100-4194-9b7d-af5467c6348c
+
+
+
+
+
+
+
+
+
 # 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
 ---
 <p align="center">
@@ -148,6 +164,11 @@ O painel visual exibido no topo da página apresenta de forma consolidada:
 <a href="https://github.com/helenlopesdias/med-cautelar-pix-analysis/raw/refs/heads/main/med-cautelar-pix-analysis.pbix">
   <img width="1061" alt="Dashboard Análise MED e Bloqueio Cautelar Pix" src="https://github.com/user-attachments/assets/1bc2aaf7-069c-4614-83e7-e9ad20978053">
 </a>
+
+
+https://github.com/user-attachments/assets/12e9d2be-ff1c-4a89-a7cb-849ca3d7c37d
+
+
 
 ### 📥 Clique na imagem acima ou no link abaixo para baixar o projeto
 
