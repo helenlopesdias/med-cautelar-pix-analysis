@@ -154,8 +154,6 @@ O painel visual exibido no topo da página apresenta de forma consolidada:
 </a>
 
 
-https://github.com/user-attachments/assets/12e9d2be-ff1c-4a89-a7cb-849ca3d7c37d
-
 
 
 ### 📥 Clique na imagem acima ou no link abaixo para baixar o projeto
