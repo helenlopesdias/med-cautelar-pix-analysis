@@ -134,7 +134,7 @@ O painel visual exibido no topo da página apresenta de forma consolidada:
 </a>
 
 <p align="center">
-  <strong>Clique na imagem para acessar a versão interativa do projeto.</strong>
+  <strong>*Para visualizar e interagir com o dashboard, CLIQUE na imagem e para fazer o download do arquivo e abra-o no Power BI Desktop.*</strong>
 </p>
 
-*Para visualizar e interagir com o dashboard, faça o download do arquivo e abra-o no Power BI Desktop.*
+
