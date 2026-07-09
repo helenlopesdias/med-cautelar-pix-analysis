@@ -2,18 +2,6 @@
 
 https://github.com/user-attachments/assets/346910be-e530-4e22-999e-418b14dfd8d3
 
-
-
-https://github.com/user-attachments/assets/a5727f9c-4100-4194-9b7d-af5467c6348c
-
-
-
-
-
-
-
-
-
 # 📊 Análise da Efetividade do MED e do Bloqueio Cautelar no Pix (2022–2026)
 ---
 <p align="center">
